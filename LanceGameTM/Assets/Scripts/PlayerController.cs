@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float acceleration = 8f;
     [SerializeField] private float braking = 10f;
     [SerializeField] private float maxSpeed = 10f;
+    [SerializeField] private float reverseSpeed = 5f;
     [SerializeField] private float drag = 2f;
 
     [Header("Steering")]
@@ -119,8 +120,14 @@ public class PlayerController : MonoBehaviour
     {
         float throttle = moveInput.y;
 
+        if (currentSpeed > 0f)
+            currentSpeed = rb.linearVelocity.magnitude;
+        else if (currentSpeed < 0f)
+            currentSpeed = -rb.linearVelocity.magnitude;
+
         if (throttle > 0f)
         {
+
             currentSpeed += acceleration * throttle * Time.fixedDeltaTime;
         }
         else if (throttle < 0f)
@@ -134,11 +141,8 @@ public class PlayerController : MonoBehaviour
                 0f,
                 drag * Time.fixedDeltaTime);
         }
-
-        currentSpeed = Mathf.Clamp(currentSpeed, 0f, maxSpeed);
-
-        // Clamp speed (no reverse)
-        currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
+        // Clamp speed (with reverse)
+        currentSpeed = Mathf.Clamp(currentSpeed, -reverseSpeed, maxSpeed);
 
         // Steering (more effective at low speed, but 0 if stationary)
         float targetSteering = moveInput.x;
@@ -151,8 +155,7 @@ public class PlayerController : MonoBehaviour
             steeringSmoothTime);
 
         // Turning becomes weaker at high speed
-        float steeringStrength = Mathf.Lerp(1f, 0.3f, currentSpeed / maxSpeed);
-
+        float steeringStrength = Mathf.Lerp(1f, 0.3f, Mathf.Abs(currentSpeed) / maxSpeed);
         // Can't steer while standing still
         steeringStrength *= currentSpeed / maxSpeed;
 

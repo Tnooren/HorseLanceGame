@@ -11551,8 +11551,9 @@ MonoBehaviour:
   acceleration: 5.5
   braking: 8
   maxSpeed: 11
+  reverseSpeed: 2.5
   drag: 0.75
-  turnSpeed: 315
+  turnSpeed: 350
   steeringSmoothTime: 0.15
   lance: {fileID: 1548180741}
   lanceMaxAngle: 52.5
