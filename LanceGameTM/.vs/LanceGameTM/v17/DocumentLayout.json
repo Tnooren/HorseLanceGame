@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|c:\\users\\gebruiker\\documents\\github\\horselancegame\\lancegametm\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|c:\\users\\gebruiker\\documents\\github\\horselancegame\\lancegametm\\assets\\scripts\\lancescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lancescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "LanceScript.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\LanceScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LanceScript.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\LanceScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LanceScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T14:47:22.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMovement.cs",
@@ -38,20 +55,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAmwHwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T17:11:21.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T17:11:21.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Sprite-Lit-Default.shader",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Library\\PackageCache\\com.unity.render-pipelines.universal@d00cd191b3cc\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@d00cd191b3cc\\Shaders\\2D\\Sprite-Lit-Default.shader",
@@ -59,7 +75,8 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@d00cd191b3cc\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-07-15T16:16:03.172Z"
+              "WhenOpened": "2026-07-15T16:16:03.172Z",
+              "EditorCaption": ""
             }
           ]
         }
