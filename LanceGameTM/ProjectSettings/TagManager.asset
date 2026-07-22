@@ -48,11 +48,17 @@ TagManager:
   - name: Horse
     uniqueID: 3478058525
     locked: 0
+  - name: Middle Particles
+    uniqueID: 1156118633
+    locked: 0
   - name: lance
     uniqueID: 2901212719
     locked: 0
   - name: Player
     uniqueID: 2899227159
+    locked: 0
+  - name: High Particles
+    uniqueID: 3320119077
     locked: 0
   m_RenderingLayers:
   - Default

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|c:\\users\\gebruiker\\documents\\github\\horselancegame\\lancegametm\\assets\\scripts\\lancescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|c:\\users\\gebruiker\\documents\\github\\horselancegame\\lancegametm\\assets\\scripts\\fallenknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fallenknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|c:\\users\\gebruiker\\documents\\github\\horselancegame\\lancegametm\\assets\\scripts\\hitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\assets\\scripts\\lancescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lancescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|c:\\users\\gebruiker\\documents\\github\\horselancegame\\lancegametm\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\assets\\scripts\\mountmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mountmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F0E946A-7552-6F8B-8C35-F1574267AE39}|Assembly-CSharp.csproj|C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,19 +43,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LanceScript.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\LanceScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LanceScript.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\LanceScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LanceScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Title": "FallenKnight.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\FallenKnight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FallenKnight.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\FallenKnight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FallenKnight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T14:47:22.983Z",
+              "WhenOpened": "2026-07-22T21:52:20.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MountMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\MountMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MountMovement.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\MountMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MountMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T17:02:07.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HitManager.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\HitManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HitManager.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\HitManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HitManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T09:20:57.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LanceScript.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\LanceScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LanceScript.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\LanceScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LanceScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T14:47:22.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMovement.cs",
@@ -55,20 +104,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAmwH4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T17:11:21.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T17:11:21.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Sprite-Lit-Default.shader",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\GitHub\\HorseLanceGame\\LanceGameTM\\Library\\PackageCache\\com.unity.render-pipelines.universal@d00cd191b3cc\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@d00cd191b3cc\\Shaders\\2D\\Sprite-Lit-Default.shader",
@@ -76,7 +124,8 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@d00cd191b3cc\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-07-15T16:16:03.172Z"
+              "WhenOpened": "2026-07-15T16:16:03.172Z",
+              "EditorCaption": ""
             }
           ]
         }
